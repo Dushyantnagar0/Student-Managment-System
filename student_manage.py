@@ -249,22 +249,7 @@ def sortaddress():
         treev.insert("", 'end', text="L12",
                      values=(data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]))
 
-
-"""
-def show_table():
-    conn = connection()
-    cur = conn.cursor()
-    nme = search.get()
-    cur.execute("select * from STUDENTS where NAME = (?)", (nme,))
-    lst = cur.fetchall()
-    for item in treev.get_children():
-        treev.delete(item)
-    total_rows = len(lst)
-    for i in range(total_rows):
-        treev.insert("", 'end', text="L12", values=(lst[i][0], lst[i][1], lst[i][2], lst[i][3], lst[i][4], lst[i][5]))
-    conn.close()
-"""
-
+# Main function
 if __name__ == "__main__":
     root = tk.Tk()
     # setting title
