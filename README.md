@@ -3,4 +3,5 @@ This is my college summer project.
 You need to first install SQLite in your system.
 
 Screeshot
-![Screenshot (11)](https://user-images.githubusercontent.com/56200680/125504303-97832c4c-faf5-4416-a6dd-c790de2969c4.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/56200680/125504502-5620a31b-944f-458a-8656-44fb39b4256d.png)
+
